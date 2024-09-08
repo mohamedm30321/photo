@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: 100% 100%;
+  transition: 0.4s;
+}
+.dad_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+
+.dad_div div {
+  width: 110px;
+  margin: 2px 3px;
+  transition: 0.5s;
+}
+.dad_div div img {
+  width: 100%;
+}
